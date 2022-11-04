@@ -23,8 +23,14 @@ In the future, One1fy will be accessible to install as a Cargo package and relev
 
 ## Create a new app
 
-Create a new One1fy site using the **package template**.
+Create a new One1fy app using the **package template**.
 
+Clone the repo
+```
+https://github.com/one1fy/one1fy
+```
+
+Run the following commands
 ```bash
 cargo clean
 cargo build --features windows

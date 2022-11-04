@@ -32,7 +32,7 @@ pub struct BarContainer {
 }
 ```
 
-## Style the bar
+## Style the Bar
 
 You can easily style and edit the bar using the parameters. For example:
 

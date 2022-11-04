@@ -12,7 +12,7 @@ Text is **a form of implementing text** which can be used for:
 
 ## Create your first Text
 
-Create a box in `orchestrator` following `components`:
+Create a text in `orchestrator` following `components`:
 
 Initialize the text component using these parameters
 
@@ -26,7 +26,7 @@ pub struct TextComponent {
 }
 ```
 
-## Style the text
+## Style the Text
 
 You can easily style and edit the text using the parameters. For example:
 

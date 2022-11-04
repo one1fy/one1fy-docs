@@ -10,7 +10,7 @@ Box is **a basic form of building UI components** which can be used for:
 - **dividing and organizing content**
 - **interactivity using on click**
 
-## Create your first Doc
+## Create your first Box
 
 Create a box in `orchestrator` following `components`:
 
@@ -27,7 +27,7 @@ pub struct BoxComponent {
 }
 ```
 
-## Style the box
+## Style the Box
 
 You can easily style and edit the box using the parameters. For example:
 
