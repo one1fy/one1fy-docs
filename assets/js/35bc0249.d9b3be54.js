@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkone_1_fy_docs=self.webpackChunkone_1_fy_docs||[]).push([[9892],{7565:e=>{e.exports=JSON.parse('{"permalink":"/one1fy-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

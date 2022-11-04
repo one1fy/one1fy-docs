@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkone_1_fy_docs=self.webpackChunkone_1_fy_docs||[]).push([[6130],{5959:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/https://one1fy.github.io/one1fy-docs/blog/tags/facebook","allTagsPath":"/https://one1fy.github.io/one1fy-docs/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkone_1_fy_docs=self.webpackChunkone_1_fy_docs||[]).push([[5435],{2896:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/https://one1fy.github.io/one1fy-docs/blog/tags/docusaurus","allTagsPath":"/https://one1fy.github.io/one1fy-docs/blog/tags","count":4}')}}]);
