@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'One1fy Docs',
   tagline: 'It\'s Gonna Be Great',
-  url: 'https://one1fy.github.io/one1fy-docs/',
-  baseUrl: '/',
+  url: 'https://one1fy.github.io/',
+  baseUrl: '/one1fy-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -52,8 +52,7 @@ const config = {
       navbar: {
         title: 'One1fy Docs',
         logo: {
-          alt: 'One1fy Docs Logo',
-          src: 'img/logo.svg',
+          src: 'static/img/one1fyLogo.png',
         },
         items: [
           {
@@ -62,9 +61,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/one1fy',
             label: 'GitHub',
             position: 'right',
           },
@@ -83,32 +81,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/one1fy',
               },
             ],
           },

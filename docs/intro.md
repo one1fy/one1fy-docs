@@ -4,44 +4,38 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **One1fy in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Get started by **cloning the repo**.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Visual Studio](https://nodejs.org/en/download/)
+  - When installing Visual Studio, choose Community edition and make sure to include C++ build tools
+- [LLVM](https://nodejs.org/en/download/)
+  - Install LLVM to aid in C++ compilation
+- [Cargo](https://nodejs.org/en/download/)
+  - Install Cargo to be able to compile Rust code
 
-## Generate a new site
+In the future, One1fy will be accessible to install as a Cargo package and relevant language packages
 
-Generate a new Docusaurus site using the **classic template**.
+## Create a new app
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Create a new One1fy site using the **package template**.
 
 ```bash
-cd my-website
-npm run start
+cargo clean
+cargo build --features windows
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Checkout out the ```Cargo.toml``` file to check out all the packages used, and change the features keywords based on project name and platform
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Start your app
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Run the development server, utilize the build you just created:
+
+```bash
+cargo run --features windows
+```
